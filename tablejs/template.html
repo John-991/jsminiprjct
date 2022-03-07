@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<div class="box"> 
+    <div id="Result"> <p>Result</p> </div> 
+    <div class="form">
+        <form name="myForm" class="myForm" action="" method="">
+            
+            <label for="Price">Price</label>
+            <input type="number" id="price" name="price">
+
+            <label for="gty">Quantity</label>
+            <input type="number" id="gty" name="quantity">
+
+            <label for="Discout">Discout %</label>
+            <input type="number" id="discout" name="discout">
+
+            <label for="Vat">Vat %</label>
+            <input type="number" id="vat" name="vat">
+
+            <label for="Total">Total</label>
+            <input type="number" id="total" name="totalForm">
+            <br><br>
+
+            <input class="button" type="button" value="Get Total" onclick="totalSum()">
+        </form>
+    </div>  
+</div> 
+<script src="script.js"></script>
+</body>
+</html>
